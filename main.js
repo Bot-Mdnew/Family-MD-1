@@ -46,7 +46,7 @@ global.db = new Low(
   /https?:\/\//.test(opts['db'] || '') ?
     new cloudDBAdapter(opts['db']) : /mongodb/.test(opts['db']) ?
       new mongoDB(opts['db']) :
-      new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`)
+      new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}data-data.json`)
 )
 global.DATABASE = global.db // Backwards Compatibility
 global.loadDatabase = async function loadDatabase() {
@@ -71,7 +71,7 @@ loadDatabase()
 // if (opts['cluster']) {
 //   require('./lib/cluster').Cluster()
 // }
-global.authFile = `${opts._[0] || 'session'}.data.json`
+global.authFile = `${opts._[0] || 'session'}.json`
 global.isInit = !fs.existsSync(authFile)
 const { state, saveState } = useSingleFileAuthState(global.authFile)
 
@@ -96,12 +96,12 @@ if (opts['server']) require('./server')(global.conn, PORT)
 
 async function connectionUpdate(update) {
   const { connection, lastDisconnect } = update
-  if (connection == 'connecting') console.log(chalk.redBright('🕛 Mengaktifkan Bot, Harap tunggu sebentar...'))
+  if (connection == 'connecting') console.log(chalk.redBright('Connecting To You WhatsApp..'))
   if (connection == 'open') {
-      console.log(chalk.green('Connected✅'))
-      await conn.hehe("6281320170984@s.whatsapp.net", global.ftoli)
+      console.log(chalk.green('Conected'))
+      await conn.hehe("0@s.whatsapp.net", global.ftoli)
   }
-  if (connection == 'close') console.log(chalk.red('⏹️Koneksi berhenti dan mencoba menghubungkan kembali...'))
+  if (connection == 'close') console.log(chalk.red('Disconnected! Reconnect To You WhatsApp..'))
   global.timestamp.connect = new Date
   if (lastDisconnect && lastDisconnect.error && lastDisconnect.error.output && lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut && conn.ws.readyState !== WebSocket.CONNECTING) {
     console.log(global.reloadHandler(true))
