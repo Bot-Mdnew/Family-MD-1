@@ -24,14 +24,14 @@ module.exports = {
         global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"])
         global.img = pickRandom(global.waifu)
         global.fla = pickRandom(global.flaaa)
-        global.namabot = conn.user.name
-        global.packname = global.namabot
-        global.author = global.dataw.owner
+        global.namabot = '𝖮𝗇𝖾 𝖡𝗈𝗍𝗓'
+        global.packname = '𝖮𝗇𝖾 𝖡𝗈𝗍𝗓\nBuat Stikermu Disini:\nwa.me/6282128475388'
+        global.author = ''
         //global.author = '𝑨𝒈𝒖𝒛 𝑭𝒂𝒎𝒊𝒍𝒊𝒂'
         //global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = namabot + ' ву ƒσкυѕ ι∂'
+        global.wm = namabot + ' 𝖡𝗒 𝖣𝖺𝗏𝗂𝖽'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'ʙy ᴀɢᴜᴢ ꜰᴀᴍɪʟɪᴀ'
+        global.colong2 = 'Ｂｙ Ｄａｖｉｄ'
         global.bg = await (await fetch(img)).buffer()
 
         if (!m) return
