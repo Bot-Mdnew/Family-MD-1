@@ -20,28 +20,28 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://api.xteam.xyz': 'apikeylu',
+  'https://api.xteam.xyz': '7a99fbd6b77336d5',
   'https://melcanz.com': 'apikeylu',
-  'https://api.lolhuman.xyz': 'apikeylu',
+  'https://api.lolhuman.xyz': '8f95a2523597e53f0af39585',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.me': 'apikeylu',
-  'https://pencarikode.xyz': 'apikeylu',
+  'https://api.zeks.me': 'apivinz',
+  'https://pencarikode.xyz': 'pais',
   'https://hardianto.xyz': 'hardianto',
-  'https://leyscoders-api.herokuapp.com': 'apikeylu',
-  'https://api.adiofficial.xyz': 'apikey lu'
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
+  'https://api.adiofficial.xyz': '3WQL2FCXafSH'
 }
 
 //global.wm = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝑭𝒐𝒌𝒖𝒔𝑰𝑫'
-global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
-global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
+global.wait = '*WAIT!*\n_Mohon Tunggu Sebentar.._'
+global.eror = '*ERROR!*\n_Terjadi Kesalahan_'
 
 //========Url Template Buttons=========//
-global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/aguzfamilia"
+global.dtu = 'Join To My Group'
+global.urlnya = "https://chat.whatsapp.com/GfwblXDHAqF4iA27wk8Gf4"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 813-2017-0984'
+global.phn = '+62 821-2847-5388'
 
 //============= Games ================//
 global.benar = '_*Benar✅*_'
