@@ -1,7 +1,7 @@
 {
-    "name": "Family",
-    "version": "2.3.5",
-    "description": "Simle Bot WhatsApp with Baileys Multi Device",
+    "name": "One BotzMD",
+    "version": "0.515",
+    "description": "Simple WhatsApp Bot Using Baileys Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
