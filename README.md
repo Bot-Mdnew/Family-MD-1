@@ -55,8 +55,8 @@ $ node .
 
 ### Instal Buildpack
 * heroku/nodejs
-* https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-* https://github.com/mcollina/heroku-buildpack-imagemagick.git
+* [`FFMpeg`](https://github.com/davidpangrib001/heroku-buildpack-ffmpeg-latest)
+* [`Imagemagick`](https://github.com/DuckyTeam/heroku-buildpack-imagemagick)
 
 ---------
 ## CARA SETTINGS
