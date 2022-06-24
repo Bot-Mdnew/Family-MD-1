@@ -37,11 +37,11 @@ global.eror = '*ERROR!*\n_Terjadi Kesalahan_'
 
 //========Url Template Buttons=========//
 global.dtu = 'Join To My Group'
-global.urlnya = "https://chat.whatsapp.com/GfwblXDHAqF4iA27wk8Gf4"
+global.urlnya = "https://chat.whatsapp.com/BiJs5Xl4oJA1Ama5BahUwd"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 821-2847-5388'
+global.phn = '+62 812-5154-9899'
 
 //============= Games ================//
 global.benar = '_*Benar✅*_'
